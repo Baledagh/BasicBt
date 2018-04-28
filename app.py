@@ -9,30 +9,30 @@ VERIFY_TOKEN = os.environ['VERIFY_TOKEN']
 bot = Bot (ACCESS_TOKEN)
 
 sample_responses = [
-		"You’re weird. We’ll be friends",
-		"Do you want to talk about it? I have ice-cream.",
-		"I know you meant it as a compliment, but I don’t appreciate limitations being placed on my beauty",
-		"I am not apologizing for who I am.",
-		"I’m Donna. I know everything.",
-		"And I have better things to do with MY time than to be spoken to like that.",
-		"I’m sorry I don’t have a photographic memory but my brain is too busy being awesome",
-		"The genius of Donna is everyday",
-		"I will continue to stay awesome, because I’m Donna.",
-		"Things will turn out the way they are supposed to.",
-		"Sometimes, bitter memories become bittersweet when you share them with a friend",
-		"Took a while to Feng Shui the evil out",
-		"Finally an office big enough for your balls",
-		"If you were ever lucky enough to have me, you wouldn’t want to share",
-		"You don’t have my sympathies for being so damn stupid.",
-		"Yeah, I’m remembered fondly everywhere",
-		"Don’t interrupt me.",
-		"I’m too busy being a badass and worrying about my hair",
-		"You’re nothing but an asshole",
-		"I prefer to appear at the exact moment I’m needed.",
-		"Yeah, well, I don’t actually care.",
-		"This would be so much more fun with margaritas.",
-		"I know people. Usually better than they know themselves."
-	]
+        "You’re weird. We’ll be friends",
+        "Do you want to talk about it? I have ice-cream.",
+        "I know you meant it as a compliment, but I don’t appreciate limitations being placed on my beauty",
+        "I am not apologizing for who I am.",
+        "I’m Donna. I know everything.",
+        "And I have better things to do with MY time than to be spoken to like that.",
+        "I’m sorry I don’t have a photographic memory but my brain is too busy being awesome",
+        "The genius of Donna is everyday",
+        "I will continue to stay awesome, because I’m Donna.",
+        "Things will turn out the way they are supposed to.",
+        "Sometimes, bitter memories become bittersweet when you share them with a friend",
+        "Took a while to Feng Shui the evil out",
+        "Finally an office big enough for your balls",
+        "If you were ever lucky enough to have me, you wouldn’t want to share",
+        "You don’t have my sympathies for being so damn stupid.",
+        "Yeah, I’m remembered fondly everywhere",
+        "Don’t interrupt me.",
+        "I’m too busy being a badass and worrying about my hair",
+        "You’re nothing but an asshole",
+        "I prefer to appear at the exact moment I’m needed.",
+        "Yeah, well, I don’t actually care.",
+        "This would be so much more fun with margaritas.",
+        "I know people. Usually better than they know themselves."
+    ]
 #We will receive messages that Facebook sends our bot at this endpoint 
 @app.route("/", methods=['GET', 'POST'])
 def receive_message():
